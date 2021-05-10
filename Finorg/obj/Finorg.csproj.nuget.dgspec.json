@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg\\Finorg.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj",
+        "projectName": "Finorg.Data",
+        "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj",
+        "packagesPath": "C:\\Users\\Ivory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ivory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Models\\Finorg.Models.csproj": {
+                "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Models\\Finorg.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Dto\\Finorg.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Dto\\Finorg.Dto.csproj",
+        "projectName": "Finorg.Dto",
+        "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Dto\\Finorg.Dto.csproj",
+        "packagesPath": "C:\\Users\\Ivory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ivory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Models\\Finorg.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Models\\Finorg.Models.csproj",
+        "projectName": "Finorg.Models",
+        "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Models\\Finorg.Models.csproj",
+        "packagesPath": "C:\\Users\\Ivory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ivory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Services\\Finorg.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Services\\Finorg.Services.csproj",
+        "projectName": "Finorg.Services",
+        "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Services\\Finorg.Services.csproj",
+        "packagesPath": "C:\\Users\\Ivory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ivory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj": {
+                "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj"
+              },
+              "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Dto\\Finorg.Dto.csproj": {
+                "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Dto\\Finorg.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FreeSpire.XLS": {
+              "target": "Package",
+              "version": "[10.10.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[15.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg\\Finorg.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg\\Finorg.csproj",
+        "projectName": "Finorg",
+        "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg\\Finorg.csproj",
+        "packagesPath": "C:\\Users\\Ivory\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ivory\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj": {
+                "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Data\\Finorg.Data.csproj"
+              },
+              "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Services\\Finorg.Services.csproj": {
+                "projectPath": "C:\\Users\\Ivory\\Desktop\\Itens\\FinOrg\\finorg\\Finorg.Services\\Finorg.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

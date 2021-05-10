@@ -1,0 +1,9 @@
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\bin\Debug\netcoreapp3.1\Finorg.Dto.deps.json
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\bin\Debug\netcoreapp3.1\Finorg.Dto.dll
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\bin\Debug\netcoreapp3.1\Finorg.Dto.pdb
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\obj\Debug\netcoreapp3.1\Finorg.Dto.csprojAssemblyReference.cache
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\obj\Debug\netcoreapp3.1\Finorg.Dto.AssemblyInfoInputs.cache
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\obj\Debug\netcoreapp3.1\Finorg.Dto.AssemblyInfo.cs
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\obj\Debug\netcoreapp3.1\Finorg.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\obj\Debug\netcoreapp3.1\Finorg.Dto.dll
+C:\Users\Ivory\Desktop\Itens\FinOrg\finorg\Finorg.Dto\obj\Debug\netcoreapp3.1\Finorg.Dto.pdb
