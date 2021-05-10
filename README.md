@@ -1,24 +1,22 @@
 # Finorg
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
-
+![Issues](https://img.shields.io/github/issues/igortheodoro/finorg?style=flat-square)
 ![Tamanho do repositório](https://img.shields.io/github/repo-size/igortheodoro/finorg)
-![Linguagens utilizadas no repositório](https://img.shields.io/github/repo-size/igortheodoro/finorg)
-![Forks](https://img.shields.io/github/repo-size/igortheodoro/finorg)
+![Stars](https://img.shields.io/github/stars/igortheodoro/finorg)
 
 <img src="exemplo-image.png" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Finorg é um bot para telegram que auxilia pessoas a organizarem melhor as finanças pessoais.
 
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Melhorar o detalhamento dos relatórios mensais.
+- [ ] Salvar a moeda dos ganhos e gastos (real, dólar, bitcoin...).
+- [ ] Adicionar dívidas e créditos com entidades (/divida 1 bitcoin para João da Silva).
+- [ ] Adicionar avisos e dicas quando for adicionado um gasto maior que todos ganhos.
+- [ ] Adicionar informações sobre os preços das moedas e ações brasileiras.
 
 ## 💻 Pré-requisitos
 
@@ -64,9 +62,7 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## 🤝 Criador
 
 <table>
   <tr>
@@ -74,7 +70,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/45567815?s=400&u=81a496ea70b6eb5fffa290e7bb594ffff93a6093&v=4" width="100px;" alt="Foto do Igor Theodoro no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Igor Theodoro</b>
         </sub>
       </a>
     </td>
@@ -90,4 +86,4 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#finorg)<br>
