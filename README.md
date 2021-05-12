@@ -13,6 +13,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Melhorar o detalhamento dos relatórios mensais.
+- [ ] Salvar as informações da API de FIIs e Stocks em cache.
 - [ ] Salvar a moeda dos ganhos e gastos (real, dólar, bitcoin...).
 - [ ] Adicionar dívidas e créditos com entidades (/divida 1 bitcoin para João da Silva).
 - [ ] Adicionar avisos e dicas.
