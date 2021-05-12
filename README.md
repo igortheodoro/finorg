@@ -1,6 +1,6 @@
 # Finorg
 
-![Issues](https://img.shields.io/github/issues/igortheodoro/finorg?style=flat-square)
+![Issues](https://img.shields.io/github/issues/igortheodoro/finorg)
 ![Tamanho do repositório](https://img.shields.io/github/repo-size/igortheodoro/finorg)
 ![Stars](https://img.shields.io/github/stars/igortheodoro/finorg)
 
