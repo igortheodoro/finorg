@@ -1,9 +1,5 @@
 # Finorg
 
-![Issues](https://img.shields.io/github/issues/igortheodoro/finorg)
-![Tamanho do repositório](https://img.shields.io/github/repo-size/igortheodoro/finorg)
-![Stars](https://img.shields.io/github/stars/igortheodoro/finorg)
-
 ![Demonstração do bot funcionando no Telegram](https://i.imgur.com/iFKJs2y.gif)
 
 > Finorg é um bot para telegram que auxilia pessoas a organizarem melhor as finanças pessoais.
