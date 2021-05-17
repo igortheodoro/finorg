@@ -27,6 +27,24 @@ Para contribuir com o projeto, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
+## Configurações necessárias
+Para utilizar o projeto após clonar é preciso configurar o appsettings:
+1. Na pastar Finorg criei um arquivo com o nome appsettings.json.
+2. Cole o seguinte json nesse arquivo: 
+```
+{
+  "TelegramKey": "SuaKey",
+  "StockExchangeApi": {
+    "Url": "https://mfinance.com.br/",
+    "Fiis": "api/v1/fiis",
+    "Stocks": "api/v1/stocks"
+  },
+  "ConnectionStrings": {
+    "DataConnection": "StringDeConexão" }
+}
+```
+3. Insira nesse arquivo sua key e sua string connection do banco de dados.
+
 ## 🤝 Criador
 
 <table>
