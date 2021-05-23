@@ -7,6 +7,6 @@ namespace Finorg.Services.Interfaces
 {
     public interface IIntegrationService
     {
-        void OnReceiveMessage(object sender, MessageEventArgs e);
+        void Start();
     }
 }

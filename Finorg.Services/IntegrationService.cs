@@ -21,12 +21,15 @@ namespace Finorg.Services
             _telegramCliente.StartReceiving();
             _dataService = dataService;
             _semaphore = new AutoResetEvent(false);
+        }
 
+        public void Start()
+        {
             _telegramCliente.OnMessage += OnReceiveMessage;
             _semaphore.WaitOne();
         }
 
-        public async void OnReceiveMessage(object sender, MessageEventArgs e)
+        private async void OnReceiveMessage(object sender, MessageEventArgs e)
         {
             var name = e.Message.Chat.Username ?? e.Message.Chat.FirstName;
             var chatId = e.Message.Chat.Id;

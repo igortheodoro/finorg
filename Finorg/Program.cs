@@ -4,6 +4,7 @@ using Finorg.Data.Repositories.Interfaces;
 using Finorg.Services;
 using Finorg.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -14,46 +15,44 @@ namespace Finorg
 {
     public class Program
     {
-        private readonly IIntegrationService _integrationService;
-        private static IConfiguration _configuration;
-
-        public Program(IIntegrationService integrationService)
-        {
-            _integrationService = integrationService;
-        }
-
         static void Main(string[] args)
         {
-            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+            var builder = new ConfigurationBuilder();
+            BuildConfig(builder);
 
-            var builder = new ConfigurationBuilder()
-                .AddJsonFile($"appsettings.json", true, true)
-                .AddJsonFile($"appsettings.{environmentName}.json", true, true)
-                .AddEnvironmentVariables();
+            var connectionString = "";
 
-            _configuration = builder.Build();
+            var host = Host.CreateDefaultBuilder()
+                .ConfigureServices((context, s) =>
+                {
+                    connectionString = context.Configuration["ConnectionStrings:DataConnection"];
 
-            CreateHostBuilder(args).Build().Services.GetRequiredService<Program>();
+                    s.AddTransient<IIntegrationService, IntegrationService>();
+                    s.AddScoped<IFinanceRepository, FinanceRepository>();
+                    s.AddScoped<IFinanceService, FinanceService>();
+                    s.AddScoped<IRequestService, RequestService>();
+                    s.AddScoped<IDocumentService, DocumentService>();
+                    s.AddDbContext<ApplicationContext>(options =>
+                        options.UseSqlServer(connectionString),
+                            ServiceLifetime.Transient);
+                })
+                .Build();
+
+            var dbContext = new DesignDbContext();
+            dbContext.CreateDbContext(args);
+
+            var integration = ActivatorUtilities.CreateInstance<IntegrationService>(host.Services);
+            integration.Start();
         }
 
-        private static IHostBuilder CreateHostBuilder(string[] args)
+        static void BuildConfig(IConfigurationBuilder builder)
         {
-            return Host.CreateDefaultBuilder(args)
-                .ConfigureServices(s =>
-                   {
-                       s.AddTransient<Program>();
-                       
-                       s.AddTransient<IIntegrationService, IntegrationService>();
-                       s.AddScoped<IFinanceRepository, FinanceRepository>();
-                       s.AddScoped<IFinanceService, FinanceService>();
-                       s.AddScoped<IRequestService, RequestService>();
-                       s.AddScoped<IDocumentService, DocumentService>();
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
 
-                       s.AddDbContext<ApplicationContext>(options =>
-                        options.UseSqlServer(_configuration["ConnectionStrings:DataConnection"]),
-                            ServiceLifetime.Transient);
-                   }
-                );
+            builder.SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", false, true)
+                .AddJsonFile($"appsettings.{environmentName}.json", true, true)
+                .AddEnvironmentVariables();
         }
     }
 }
