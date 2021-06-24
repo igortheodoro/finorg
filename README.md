@@ -29,7 +29,7 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 ## Configurações necessárias
 Para utilizar o projeto após clonar é preciso configurar o appsettings:
-1. Na pastar Finorg criei um arquivo com o nome appsettings.json.
+1. Na pasta Finorg criei um arquivo com o nome appsettings.json.
 2. Cole o seguinte json nesse arquivo: 
 ```
 {
